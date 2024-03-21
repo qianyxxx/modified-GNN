@@ -1,0 +1,13 @@
+# Ignore all files in the data directory
+data/*.*
+# But do not ignore Python files in the data directory
+!data/*.py
+
+# Ignore all files in the dataset directory
+dataset/*
+
+# Ignore all .pt files
+*.pt
+
+# Ignore all .DS_Store files
+.DS_Store
