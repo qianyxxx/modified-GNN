@@ -1,7 +1,5 @@
 # Ignore all files in the data directory
-data/*.*
-# But do not ignore Python files in the data directory
-!data/*.py
+data/*
 
 # Ignore all files in the dataset directory
 dataset/*
